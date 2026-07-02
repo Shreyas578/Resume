@@ -1,0 +1,28 @@
+team_name: Crypto Punks
+
+submission_name: Inida Redrob AI Challenge
+
+author: Shreyas Nikam
+
+language: Python
+
+framework: Streamlit
+
+python_version: "3.11"
+
+entrypoint: app.py
+
+description: >
+  Streamlit dashboard for the Redrob Senior AI Engineer
+  Candidate Ranking Challenge. The app uploads candidate
+  JSONL files, ranks candidates using heuristic scoring,
+  displays statistics, and exports the final submission CSV.
+
+files:
+  - app.py
+  - ranker.py
+  - requirements.txt
+  - README.md
+
+output:
+  submission.csv
